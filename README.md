@@ -7,14 +7,14 @@ Written as a part of "Artificial Intelligence" course taken at Gdańsk Universit
 # Status of project
 This project has been completed. 
 # Setup
-In order to work requires MNIST dataset to be put inside main directory from:
-http://yann.lecun.com/exdb/mnist/
+In order to work requires [MNIST dataset](http://yann.lecun.com/exdb/mnist/) to be put inside main directory.
 ```
 train-images-idx3-ubyte.gz:  training set images (9912422 bytes) 
 train-labels-idx1-ubyte.gz:  training set labels (28881 bytes) 
 t10k-images-idx3-ubyte.gz:   test set images (1648877 bytes)
 t10k-labels-idx1-ubyte.gz:   test set labels (4542 bytes)
 ```
+Also requires cache.bin created from [NN recogintion repo](https://github.com/DawiddAdamczyk/hand-written-digit-recognition-with-NN).
 # Genetic algorithm
 ## Description of used method
 The algorithm used, which belongs to the group of evolutionary algorithms, is a kind of heuristics that search the space of alternative solutions to a problem in order to find the set of best solutions. The algorithm learns to classify into 10 disjoint classes - it has 10 resultant neurons. The algorithm for teaching a 1 layer network (no hidden layers) is 2 phase and consists of the steps shown below:
